@@ -20,5 +20,5 @@ jobs:
 
       - run: npm run build
 
-      - name: Run Tests
+      - name: Run Test
         run: npm test -- --watch=false
